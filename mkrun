@@ -1,0 +1,4 @@
+(cd src && make clean && make)
+(cd slave && make clean && make)
+make clean && make link && make
+bsub -I -b -q q_sw_expr -share_size 7000 -host_stack 1024 -n 1 -cgsp 64 ./test | tee log

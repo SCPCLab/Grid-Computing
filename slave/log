@@ -1,0 +1,43 @@
+
+wrapper.o:
+0000000000000000 t .BB1__Z17slave_computationP7DataSetS0_PiS1_PFvS0_S0_S1_S1_E
+0000000000000038 t .BB3__Z17slave_computationP7DataSetS0_PiS1_PFvS0_S0_S1_S1_E
+0000000000000048 t .BB6__Z17slave_computationP7DataSetS0_PiS1_PFvS0_S0_S1_S1_E
+0000000000000004 t .LCFI__Z17slave_computationP7DataSetS0_PiS1_PFvS0_S0_S1_S1_E_adjustsp
+000000000000000c t .LCFI__Z17slave_computationP7DataSetS0_PiS1_PFvS0_S0_S1_S1_E_store26
+0000000000000000 r .LEHCIE
+0000000000000004 r .LEHCIE_begin
+0000000000000020 r .LEHCIE_end
+0000000000000024 r .LFDE1_begin
+0000000000000050 r .LFDE1_end
+0000000000000005 d .LSDACSB1
+000000000000000d d .LSDACSE1
+0000000000000011 d .LSDATTYPEB1
+0000000000000003 d .LSDATTYPED1
+0000000000000054 t .L_0_1026
+0000000000000028 t .L_0_258
+0000000000000040 t .L_0_514
+0000000000000040 t .L_0_770
+000000000000005c t .L_CC__Z17slave_computationP7DataSetS0_PiS1_PFvS0_S0_S1_S1_E
+0000000000000000 d .range_table._Z17slave_computationP7DataSetS0_PiS1_PFvS0_S0_S1_S1_E
+0000000000000000 S START_ADDR
+0000000000000000 T slave_computation(DataSet*, DataSet*, int*, int*, void (*)(DataSet*, DataSet*, int*, int*))
+                 U __gxx_personality_v0
+                 U __real_athread_spawn
+                 U athread_join
+                 U slave_computation_kernel
+0000000000000000 B sw3_exp_handler
+0000000000000100 B sw3_sig_handler
+
+kernel_slave.o:
+0000000000000000 t .BB1_computation_kernel
+0000000000000020 t .BB2_computation_kernel
+0000000000000010 t .LCFI_computation_kernel_adjustsp
+0000000000000014 t .LCFI_computation_kernel_store26
+0000000000000000 r .LEHCIE
+0000000000000004 r .LEHCIE_begin
+0000000000000010 r .LEHCIE_end
+0000000000000034 t .L_CC_computation_kernel
+                 U _MYID
+0000000000000000 T slave_computation_kernel
+                 U slave_printf
